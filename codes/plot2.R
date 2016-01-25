@@ -4,7 +4,7 @@
 #* Load dataset
 #******************************************************
 library(lubridate)
-setwd("H:/school/coursera/data science/Johns Hopkins/workmig/expl/ExData_Plotting1/code")
+setwd("H:/school/coursera/data science/Johns Hopkins/workmig/expl/ExData_Plotting1/codes")
 consumption <- read.table(file.path(getwd(), "household_power_consumption.txt"),header = TRUE,sep = ';' ,na.strings = '?')
 
 ## read data to only over a 2-day period in February, 2007.
